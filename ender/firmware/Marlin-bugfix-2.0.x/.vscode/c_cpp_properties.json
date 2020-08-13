@@ -1,0 +1,79 @@
+{
+    "configurations": [
+        {
+            "name": "!!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags"
+        },
+        {
+            "name": "Mac",
+            "macFrameworkPath": [],
+            "includePath": [
+                "/Users/nbomberger/3dprinting/ender/firmware/Marlin-bugfix-2.0.x/include",
+                "/Users/nbomberger/3dprinting/ender/firmware/Marlin-bugfix-2.0.x/Marlin",
+                "/Users/nbomberger/3dprinting/ender/firmware/Marlin-bugfix-2.0.x/.pio/libdeps/mega2560/TMC26XStepper",
+                "/Users/nbomberger/3dprinting/ender/firmware/Marlin-bugfix-2.0.x/.pio/libdeps/mega2560/SailfishLCD",
+                "/Users/nbomberger/3dprinting/ender/firmware/Marlin-bugfix-2.0.x/.pio/libdeps/mega2560/LiquidTWI2_ID6063",
+                "/Users/nbomberger/3dprinting/ender/firmware/Marlin-bugfix-2.0.x/.pio/libdeps/mega2560/SlowSoftI2CMaster_ID7005",
+                "/Users/nbomberger/3dprinting/ender/firmware/Marlin-bugfix-2.0.x/.pio/libdeps/mega2560/Arduino-L6470_ID2404/src",
+                "/Users/nbomberger/3dprinting/ender/firmware/Marlin-bugfix-2.0.x/.pio/libdeps/mega2560/U8glib-HAL_ID1932/src",
+                "/Users/nbomberger/3dprinting/ender/firmware/Marlin-bugfix-2.0.x/.pio/libdeps/mega2560/Adafruit NeoPixel_ID28",
+                "/Users/nbomberger/3dprinting/ender/firmware/Marlin-bugfix-2.0.x/.pio/libdeps/mega2560/Adafruit MAX31865 library_ID1253",
+                "/Users/nbomberger/3dprinting/ender/firmware/Marlin-bugfix-2.0.x/.pio/libdeps/mega2560/TMCStepper_ID5513/src",
+                "/Users/nbomberger/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/Users/nbomberger/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/Users/nbomberger/3dprinting/ender/firmware/Marlin-bugfix-2.0.x/.pio/libdeps/mega2560/LiquidCrystal_ID136",
+                "/Users/nbomberger/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "/Users/nbomberger/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/Users/nbomberger/.platformio/packages/framework-arduino-avr/variants/mega",
+                "/Users/nbomberger/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/Users/nbomberger/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/Users/nbomberger/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/nbomberger/3dprinting/ender/firmware/Marlin-bugfix-2.0.x/include",
+                    "/Users/nbomberger/3dprinting/ender/firmware/Marlin-bugfix-2.0.x/Marlin",
+                    "/Users/nbomberger/3dprinting/ender/firmware/Marlin-bugfix-2.0.x/.pio/libdeps/mega2560/TMC26XStepper",
+                    "/Users/nbomberger/3dprinting/ender/firmware/Marlin-bugfix-2.0.x/.pio/libdeps/mega2560/SailfishLCD",
+                    "/Users/nbomberger/3dprinting/ender/firmware/Marlin-bugfix-2.0.x/.pio/libdeps/mega2560/LiquidTWI2_ID6063",
+                    "/Users/nbomberger/3dprinting/ender/firmware/Marlin-bugfix-2.0.x/.pio/libdeps/mega2560/SlowSoftI2CMaster_ID7005",
+                    "/Users/nbomberger/3dprinting/ender/firmware/Marlin-bugfix-2.0.x/.pio/libdeps/mega2560/Arduino-L6470_ID2404/src",
+                    "/Users/nbomberger/3dprinting/ender/firmware/Marlin-bugfix-2.0.x/.pio/libdeps/mega2560/U8glib-HAL_ID1932/src",
+                    "/Users/nbomberger/3dprinting/ender/firmware/Marlin-bugfix-2.0.x/.pio/libdeps/mega2560/Adafruit NeoPixel_ID28",
+                    "/Users/nbomberger/3dprinting/ender/firmware/Marlin-bugfix-2.0.x/.pio/libdeps/mega2560/Adafruit MAX31865 library_ID1253",
+                    "/Users/nbomberger/3dprinting/ender/firmware/Marlin-bugfix-2.0.x/.pio/libdeps/mega2560/TMCStepper_ID5513/src",
+                    "/Users/nbomberger/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/Users/nbomberger/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/Users/nbomberger/3dprinting/ender/firmware/Marlin-bugfix-2.0.x/.pio/libdeps/mega2560/LiquidCrystal_ID136",
+                    "/Users/nbomberger/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "/Users/nbomberger/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/Users/nbomberger/.platformio/packages/framework-arduino-avr/variants/mega",
+                    "/Users/nbomberger/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/Users/nbomberger/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/Users/nbomberger/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=40304",
+                "ARDUINO_AVR_MEGA2560",
+                "__MARLIN_FIRMWARE__",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega2560__",
+                ""
+            ],
+            "intelliSenseMode": "clang-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/Users/nbomberger/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega2560",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
